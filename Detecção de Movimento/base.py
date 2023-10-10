@@ -46,7 +46,7 @@ def liga(selected_camera):
             print(sum(sum(calculaDiferenca(antepenultima, penultima, ultima))))
             nome = 'image' + str(i)
             print(nome)
-            cv2.imwrite('C:\\Users\\carva\\OneDrive\\Imagens\\Varanda\\' + nome + '.jpg', frame)
+            cv2.imwrite('C:\\\Imagens\\' + nome + '.jpg', frame)
             
             fotos_tiradas += 1  # Incrementa o contador de fotos tiradas
 
